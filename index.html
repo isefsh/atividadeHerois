@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Heróis</title>
+  <link rel="icon" href="https://img.icons8.com/windows/32/000000/super-hero-female.png">
+  <link rel="stylesheet" href="css/style.css" type="text/css">
+  <script src="js/script.js" type="text/javascript"></script>
+</head>
+<body>
+  <div id="mostrarHeroi"></div>
+  <div id="dadosHeroi">
+    <header>
+      <h1>Seja bem-vindo(a)!</h1>
+    </header>
+    <section>
+      <p>Escolhe seu universo de super-heróis abaixo:</p>
+      <input type="radio" name="universo" value="DC">DC<br>
+      <input type="radio" name="universo" value="Marvel">Marvel
+      <p>Digite um herói do universo selecionado:</p>
+      <input type="text" name="heroi" id="heroi">
+      <div id="botao">
+        <button onclick="verificarHeroi()">Buscar</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>

@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #443a59;
+  font-family: Helvetica;
+  font-size: 18px;
+}
+
+#mostrarHeroi{
+  display: inline-block;
+}
+
+#mostrarHeroi,
+#dadosHeroi{
+  width: 50%;
+  height: 100vh;
+}
+
+#dadosHeroi{
+  background-color: #ede9fa;
+  display: inline;
+  float: right;
+  position: absolute;
+}
+
+header{
+  text-align: center;
+  padding-top: 18%;
+}
+
+header,
+section{
+  max-width: 490px;
+  width: 490px;
+  margin: 0 auto;
+}
+
+p{
+  padding-top: 24px;
+  padding-bottom: 16px;
+}
+
+input[type=radio]{
+  margin-top: 8px;
+}
+
+#heroi{
+  width: 480px;
+  height: 24px;
+  border: 0.5px solid #d3d3d3;
+  border-radius: 24px;
+  padding-left: 8px;
+}
+
+#botao{
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  margin-top: 16px;
+}
+
+button{
+  width: 120px;
+  height: 32px;
+  background-color: #fff  ;
+  border: 0.5px solid #d3d3d3;
+  border-radius: 60px;
+}
+
+button:hover{
+  background-color: #d3d3d3;
+  transition: background-color 0.15s ease;
+}
+
+#mostrarHeroi p{
+  color: #fff;
+  font-size: 26px;
+  text-align: center;
+  padding-top: 16%;
+}
+
+img{
+  width: 35%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
