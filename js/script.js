@@ -10,16 +10,16 @@ function verificarHeroi(){
     heroisDc.indexOf(heroi) > -1 ? document.getElementById("mostrarHeroi").innerHTML = 
     "<p>Você escolheu o herói: <br><img src='imgs/dc/" + img + ".png'><br><span id='nomeHeroi'>" + heroi + 
     "</span></p>" : document.getElementById("mostrarHeroi").innerHTML = 
-    "O herói digitado não foi encontrado.";
+    "<p>O herói digitado não foi encontrado.</p>";
   }
   else if(universo == "Marvel"){
     heroisMarvel.indexOf(heroi) > -1 ? document.getElementById("mostrarHeroi").innerHTML = 
     "<p>Você escolheu o herói: <br><img src='imgs/marvel/" + img + ".png'><br><span id='nomeHeroi'>" + heroi + 
     "</span></p>" : document.getElementById("mostrarHeroi").innerHTML = 
-    "O herói digitado não foi encontrado.";
+    "<p>O herói digitado não foi encontrado.</p>";
   }
   else{
     document.getElementById("mostrarHeroi").innerHTML =
-    "Nenhum universo foi selecionado. Tente novamente..";
+    "<p>Nenhum universo foi selecionado. Tente novamente..</p>";
   }
 }
